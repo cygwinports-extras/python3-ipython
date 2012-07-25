@@ -1,9 +1,13 @@
-category: Python Interpreters
-requires: python3 python3-nose python3-zmq
-sdesc: "Interactive Py3K interpreter"
-ldesc: "IPython is a free software project which tries to:
+inherit python3-distutils
+
+CATEGORY="Python"
+SUMMARY="Interactive Py3K interpreter"
+DESCRIPTION="IPython is a free software project which tries to:
 * Provide an interactive shell superior to Python's default.
 * Serve as an embeddable, ready to use interpreter.
 * Offer a flexible framework which can be used as the base environment
   for other systems with Python as the underlying language.
 * Allow interactive testing of threaded graphical toolkits."
+HOMEPAGE="http://ipython.org/"
+
+DOCS="docs/README.txt docs/api_changes.txt"
